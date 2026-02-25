@@ -1,6 +1,6 @@
 import { useCounter } from "../hooks/use-counter.hook";
 
-export function CounterPage() {
+export function CustomHookCounterPage() {
     const { counter, increment, decrement } = useCounter();
     return (
         <>

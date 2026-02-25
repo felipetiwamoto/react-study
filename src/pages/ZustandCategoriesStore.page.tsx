@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useCategoriesStore } from "../stores/categories.store";
 
-export function CategoriesStorePage() {
+export function ZustandCategoriesStorePage() {
     const { categories, add, update, remove } = useCategoriesStore();
     const [categoryName, setCategoryName] = useState("");
 

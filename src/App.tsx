@@ -1,13 +1,13 @@
-import { CategoriesStorePage } from "./pages/CategoriesStore.page";
-import { CounterPage } from "./pages/Counter.page";
-import { ThemeContextPage } from "./pages/ThemeContext.page";
+import { ZustandCategoriesStorePage } from "./pages/ZustandCategoriesStore.page";
+import { CustomHookCounterPage } from "./pages/CustomHookCounter.page";
+import { ContextAPIThemeContextPage } from "./pages/ContextAPIThemeContext.page";
 
 export function App() {
   return (
     <>
-      <CounterPage />
-      <ThemeContextPage />
-      <CategoriesStorePage />
+      <CustomHookCounterPage />
+      <ContextAPIThemeContextPage />
+      <ZustandCategoriesStorePage />
     </>
   )
 }
